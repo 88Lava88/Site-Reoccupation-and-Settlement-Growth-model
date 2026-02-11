@@ -3,22 +3,16 @@ A NetLogo agent-based model created for a course on Agent-Based Modelling for Ar
 
 ## Context:
 Although the idea of modelling settlement dynamics is not new, I created my own simplified model from scratch that focuses specifically on site reoccupation. The model simulates the processes of habitation, abandonment and reoccupation of places. Inspired by patterns observed in some of the world’s longest-inhabited cities, including Jericho (11,000 years), Damascus (8,000 years), and Aleppo (5,000 years), where rebuilding on the same locations has maintained urban continuity for  many thousands years despite extreme changes in population and culture. 
+
 ## Conceptual Model
+### Core Process
+Agents arrive at the settlement, occupy patches for a limited time, and then leave or die. When a patch becomes unoccupied, it begins to decay. Reoccupation increases the patch’s building level, which reduces its rate of decay. Through these cycles, the model investigates how long-term spatial persistence can emerge despite continuous population turnover. 
 
-### Key Relationships:
-Agents arrive at the settlement, occupy patches, stay for a limited time, and then leave or die.   
-
-
-- Agent Arrival → Patch Occupation (+) 
-  - New agents enter the settlement and occupy available areas.
-- Patch Vacancy → Agent Movement (−)
-  - Overcrowded or already occupied areas cause agents to move to other locations.
-- Neighboring Agents → Patch Selection Probability (+)
-  - Agents prefer to settle near others, creating a natural social cluster
-- Abandoned Patches → Patch Availability (+)
-  - When agents leave or die, areas become available again, allowing future occupation.
-- High Patch Use → Slower decay (+)
-  - areas that are frequently occupied persist longer in the settlement due to repeated use.
+- Agent Arrival (+) → Occupied Patches
+- Agent Death (+) → Vacant Patches
+- Vacant Patches (+) → Probability of Reoccupation
+- Reoccupation (+) → Building Level
+- Building Level (−) → Decay Rate
 
 
 ## Elements
