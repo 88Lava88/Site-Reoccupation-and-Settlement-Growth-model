@@ -17,7 +17,7 @@ Agents arrive at the settlement, occupy patches, stay for a limited time, and th
   - Agents prefer to settle near others, creating a natural social cluster
 - Abandoned Patches → Patch Availability (+)
   - When agents leave or die, areas become available again, allowing future occupation.
-- High Patch Use → Slower Turnover (+)
+- High Patch Use → Slower decay (+)
   - areas that are frequently occupied persist longer in the settlement due to repeated use.
 
 
