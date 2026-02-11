@@ -25,7 +25,7 @@ Agents arrive at the settlement, occupy patches, stay for a limited time, and th
 - **Red Agents (people):** Represent individuals who arrive in the settlement, occupy and build on it, stay for a limited lifespan, and then leave or die.
 - **Patches (Buildings):** Represent locations that can be occupied.
 
-### Levels
+### Building Levels
 
 - Each patch in the settlement stores a building level  
 - The building level increases each time an agent occupies the patch. The more frequently a spot is reoccupied, the higher its level becomes.  
