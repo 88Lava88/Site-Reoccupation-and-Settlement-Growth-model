@@ -1,5 +1,5 @@
 # Site-Reoccupation-and-Settlement-Growth-model
-A NetLogo agent-based model created for a course on Agent-Based Modelling for Archaeologists 
+A NetLogo agent-based model created for a course on Agent-Based Modelling for Archaeologists  https://codarchlab-abm.github.io/course-guide/ 
 
 ## Context:
 Although the idea of modelling settlement dynamics is not new, I created my own simplified model from scratch that focuses specifically on site reoccupation. The model simulates the processes of habitation, abandonment and reoccupation of places. Inspired by patterns observed in some of the world’s longest-inhabited cities, including Jericho (11,000 years), Damascus (8,000 years), and Aleppo (5,000 years), where rebuilding on the same locations has maintained urban continuity for  many thousands years despite extreme changes in population and culture. 
